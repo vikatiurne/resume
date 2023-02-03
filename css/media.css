@@ -1,0 +1,82 @@
+@media (max-width: 992px) {
+  .main {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .line1 {
+    max-width: 120px;
+  }
+  .line2 {
+    max-width: 155px;
+  }
+  .line3 {
+    max-width: 98px;
+  }
+}
+@media (max-width: 850px) {
+  .main {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .main-container {
+    width: 525px;
+  }
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+  .sidebar {
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .sidebar-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-item {
+    margin-bottom: 15px;
+    padding-right: 10px;
+  }
+  .about__title {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 662px) {
+  .main-container {
+    width: 450px;
+  }
+  .sidebar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebar-item {
+    padding-left: 0;
+  }
+  .skills {
+    display: flex;
+  }
+}
+@media (max-width: 550px) {
+  .main-container {
+    width: 320px;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    display: none;
+  }
+  .technology {
+    display: block;
+    margin: 5px 0 10px 10px;
+  }
+  .sidebar-items {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .main-container {
+    width: 285px;
+  }
+}
