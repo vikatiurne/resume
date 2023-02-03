@@ -69,9 +69,10 @@ h3 {
   transition: 0.3s linear;
   user-select: none;
   cursor: pointer;
+  transform: rotate(180deg);
 }
 ._arrow-up {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
 ._close {
   display: none;
@@ -82,7 +83,7 @@ h3 {
 .exp {
   margin-bottom: 50px;
 }
-.acc__info{
+.acc__info {
   padding-top: 15px;
 }
 .project ol,
