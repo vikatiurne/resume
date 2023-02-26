@@ -8,7 +8,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
 }
 ol,
 ul {
@@ -105,10 +105,10 @@ h3 {
   width: 100%;
 }
 .line1 {
-  max-width: 186px;
+  max-width: 175px;
 }
 .line2 {
-  max-width: 221px;
+  max-width: 92px;
 }
 .line3 {
   max-width: 164px;
@@ -123,6 +123,11 @@ h3 {
 .project__title {
   font-weight: 700;
   font-size: 22px;
+}
+
+.project_description {
+  max-width: 410px;
+  margin: 5px 25px;
 }
 
 /* experience */
